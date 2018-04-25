@@ -1,0 +1,18 @@
+.TradingTeaser {
+    width: 100%;
+    height: 300px;
+    background-image: url('./dashboard.png');
+    background-size: cover;
+}
+
+.TradingTeaser--titles {
+
+}
+
+.TradingTeaser--greyscale {
+    filter: grayscale(100%);
+}
+
+.TradingTeaser--unfiltered {
+
+}
