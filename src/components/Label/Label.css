@@ -1,8 +1,8 @@
-.InputField__container {
+.Label__container {
     width: 100%
 }
 
-.InputField__input {
+.Label__label {
     display: block;
     margin: 0 15px
 }
