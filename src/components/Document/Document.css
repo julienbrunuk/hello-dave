@@ -1,0 +1,15 @@
+.Document {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.Document__UploadZone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    border:  5px dashed silver;
+    border-radius: 5px;
+    min-height: 33vh;
+}

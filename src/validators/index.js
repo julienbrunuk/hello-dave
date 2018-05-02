@@ -4,6 +4,6 @@ export const isEmailAddress = (emailToTest) => {
     return emailAddressRegex.test(String(emailToTest).toLowerCase());
 }
 
-export const isFullName = (fullName) => {
-    return fullName.length > 3 && fullName.contains(' ')
+export const isFullName = (fullName) => { // at least three characters including a space
+    return fullName.length > 4 && fullName.includes(' ')
 }

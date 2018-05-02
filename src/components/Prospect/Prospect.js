@@ -1,17 +1,18 @@
 import './Prospect.css'
 import React from 'react'
-import {isEmailAddress} from "../../validators";
+import {isFullName} from "../../validators";
 import {TextInputField, Button, RadioGroup} from 'evergreen-ui'
 
 export default class extends React.Component {
     state = {
         name: '',
+        validName: false,
         american: false,
         touched: false, // whether the CallToAction button has been touched
     }
 
     submit = () => {
-        if (this.state.name) {
+        if (this.state.validName) {
             this.props.submit(this.state.name)
         } else {
             this.setState({
@@ -28,7 +29,7 @@ export default class extends React.Component {
     setName = (event) => {
         this.setState({
                 "name": event.target.value,
-                "validName": isEmailAddress(event.target.value)
+                "validName": isFullName(event.target.value)
             }
         )
     }

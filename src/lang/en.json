@@ -2,7 +2,7 @@
   "Yes": "Yes",
   "No": "No",
   "Anonymous_Title": "Try our free demo today",
-  "Anonymous_Description": "You are only one short step away from the online trading revolution, so why not try with a free demo account today?",
+  "Anonymous_Description": "You are only one short step away from the online trading revolution, so why not try us with a free demo account today?",
   "Anonymous_FieldName": "Your email address",
   "Anonymous_FieldPlaceholder": "name@example.com",
   "Anonymous_FieldHelpText": "We will not share your email address with a third_party",
@@ -12,7 +12,9 @@
   "Prospect__FullName__placeholder": "John Smith Doe",
   "Prospect__FullName__help": "Please enter your full name, including any middle names",
   "Prospect__USW9": "Are you a U.S citizen or resident?",
-  "Prospect__HelpText": "We are required to provide this information under the Foreign Account Tax Compliance Act",
-  "Prospect_CallToAction": "Continue"
-
+  "Prospect__HelpText": "We are required to collect this information under the Foreign Account Tax Compliance Act",
+  "Prospect_Error": "Your full name must include at least 3 characters and a space",
+  "Prospect_CallToAction": "Continue",
+  "Document__Title": "Document upload",
+  "Document__Description": "Please send us a copy of either your driving license or your passport"
 }
